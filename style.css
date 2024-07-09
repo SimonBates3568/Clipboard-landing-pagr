@@ -1,0 +1,234 @@
+:root {
+    /* Layout */
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+
+    /* Colors */
+    --color-primary-strong-cyan: hsl(171, 66%, 44%);
+    --color-primary-light-blue: hsl(233, 100%, 69%);
+
+    --color-neutral-dark-grayish-blue: hsl(210, 10%, 33%);
+    --color-neutral-grayish-blue: hsl(201, 11%, 66%);
+
+    /* Typography */
+    --font-family: 'Bai Jamjuree', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-size-body: 18px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-body);
+    color: var(--color-neutral-dark-grayish-blue);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-neutral-grayish-blue);
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+  }
+  /* Style the hero container */
+.hero-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Ensure it's above the background image */
+    text-align: center;
+    color: black; /* Adjust text color if needed */
+  }
+/* all buttons */
+  .hero-button-1 {
+    background-color: var(--color-primary-strong-cyan);
+    padding: 1rem;
+    margin-right: 0.5rem;
+    border-radius: 25px; 
+    cursor: pointer;
+  }
+
+  .hero-button-2 {
+    background-color: var(--color-primary-light-blue);
+    padding: 1rem;
+    border-radius: 25px; 
+    cursor: pointer;
+  }
+
+/* Style the background SVG */
+.background-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+
+/* SNIPPETS */
+.keep-track-of-your-snippets-container {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-wrap: wrap;
+    padding-top: 0;
+}
+
+.keep-track-of-your-snippets {
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5rem;
+   
+}
+
+.snippets-computer-image-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+
+.snippets-computer-image {
+    padding-right: 10rem;
+}
+
+/* ACCESS-CLIPBOARD-ANYWHERE-SECTION */
+.access-clipboard-anywhere-container {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+/* SUPERCHARGE-YOUR-WORKFLOW */
+.supercharge-your-workflow-container {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-wrap: wrap;
+}
+/* logos */
+.blacklists {
+    width: 30%;
+}
+.plain-text-snippets {
+    width: 30%;
+}
+.sneak-preview {
+    width: 30%;
+}
+
+/* ICONS */
+.supercharge-your-workflow-icon-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-wrap: wrap;
+    padding: 3rem;
+}
+
+/* COMPANY-LOGOS */
+.company-logos-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-wrap: wrap;
+    padding: 3rem;
+}
+.company-logo {
+    padding-right: 5rem;
+}
+/* CLIPBOARD */
+.clipboard-for-ios-and-mac-os-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-wrap: wrap;
+    padding: 4rem;
+}
+
+/* FOOTER */
+.footer-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    text-wrap: wrap;
+   
+}
+.footer-container {
+    text-align: left;
+}
+
+.footer-container > div > p:hover {
+color: aqua;
+cursor: pointer;
+}
+
+.install-guide {
+    padding-right: 8rem;
+}
+
+.socialmedia-icons > img {
+padding: 0.5rem;
+}
+
+.socialmedia-icons > img:hover {
+background-color: aqua;
+cursor: pointer;
+}
+
+
+
+
+
+
+
